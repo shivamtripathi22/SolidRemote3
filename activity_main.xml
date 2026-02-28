@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1a2e">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SOLID HDS2 9048 Remote"
+            android:textColor="#FFD700"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <Button android:id="@+id/btnPower"
+            android:layout_width="120dp" android:layout_height="50dp"
+            android:text="POWER" android:backgroundTint="#e74c3c"
+            android:textColor="#FFFFFF" android:layout_marginBottom="16dp"/>
+
+        <Button android:id="@+id/btnHome"
+            android:layout_width="120dp" android:layout_height="50dp"
+            android:text="HOME" android:backgroundTint="#27ae60"
+            android:textColor="#FFFFFF" android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <Button android:id="@+id/btnUp"
+            android:layout_width="80dp" android:layout_height="60dp"
+            android:text="UP" android:backgroundTint="#2980b9"
+            android:textColor="#FFFFFF"/>
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="horizontal"
+            android:gravity="center">
+            <Button android:id="@+id/btnLeft"
+                android:layout_width="70dp" android:layout_height="60dp"
+                android:text="LEFT" android:backgroundTint="#2980b9"
+                android:textColor="#FFFFFF"/>
+            <Button android:id="@+id/btnOK"
+                android:layout_width="80dp" android:layout_height="80dp"
+                android:text="OK" android:backgroundTint="#8e44ad"
+                android:textColor="#FFFFFF" android:textSize="18sp"
+                android:textStyle="bold" android:layout_marginHorizontal="8dp"/>
+            <Button android:id="@+id/btnRight"
+                android:layout_width="70dp" android:layout_height="60dp"
+                android:text="RIGHT" android:backgroundTint="#2980b9"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <Button android:id="@+id/btnDown"
+            android:layout_width="80dp" android:layout_height="60dp"
+            android:text="DOWN" android:backgroundTint="#2980b9"
+            android:textColor="#FFFFFF" android:layout_marginBottom="16dp"/>
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+            <Button android:id="@+id/btnBack"
+                android:layout_width="110dp" android:layout_height="50dp"
+                android:text="BACK" android:backgroundTint="#7f8c8d"
+                android:textColor="#FFFFFF" android:layout_marginEnd="12dp"/>
+            <Button android:id="@+id/btnMenu"
+                android:layout_width="110dp" android:layout_height="50dp"
+                android:text="MENU" android:backgroundTint="#7f8c8d"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/btnChUp"
+                android:layout_width="110dp" android:layout_height="50dp"
+                android:text="CH +" android:backgroundTint="#16a085"
+                android:textColor="#FFFFFF" android:layout_marginEnd="12dp"/>
+            <Button android:id="@+id/btnChDown"
+                android:layout_width="110dp" android:layout_height="50dp"
+                android:text="CH -" android:backgroundTint="#16a085"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
